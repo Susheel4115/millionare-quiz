@@ -204,3 +204,17 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 753px) {
+  .app {
+    width: 100%;
+  }
+  .timer {
+    top: 60%;
+  }
+  .question {
+    width: 60%;
+    height: 40%;
+  }
+}
